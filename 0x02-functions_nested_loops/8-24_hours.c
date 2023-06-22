@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * jack_bauer - printsevery minute of the day of Jack Bauer.
- * Return: . . .
+ * jack_bauer - Prints time starting from 00:00 to 23:59
+ * Return: ....
  */
 
 void jack_bauer(void)
@@ -10,9 +10,9 @@ void jack_bauer(void)
 
 int a, b, c, d;
 
-for (a = 0;  a <= 2; a++)
+for  (a = 0; a <= 2; a++)
 {
-for (b = 0;  b <= 2; b++)
+for (b = 0; b <= 9; b++)
 {
 if ((a <= 1 && b <= 9) || (a <= 2 && b <= 3))
 {
